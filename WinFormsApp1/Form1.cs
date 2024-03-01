@@ -24,5 +24,10 @@ namespace WinFormsApp1
             else
                 progressBar1.Value = 0;
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

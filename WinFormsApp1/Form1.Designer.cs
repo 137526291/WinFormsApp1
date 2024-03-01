@@ -39,7 +39,7 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(186, 128);
+            this.button1.Location = new System.Drawing.Point(20, 26);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -50,12 +50,13 @@ namespace WinFormsApp1
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(484, 98);
+            this.checkBox1.Location = new System.Drawing.Point(386, 28);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(89, 21);
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // errorProvider1
             // 
@@ -63,7 +64,7 @@ namespace WinFormsApp1
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(270, 243);
+            this.progressBar1.Location = new System.Drawing.Point(114, 26);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(251, 23);
             this.progressBar1.TabIndex = 2;
@@ -72,7 +73,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(517, 70);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
