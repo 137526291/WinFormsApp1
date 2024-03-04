@@ -96,4 +96,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: exe Package
-        path: ./WinFormsApp1/bin/Release/netcoreapp3.1/win-x64/publish/WinFormsApp1.exe
+        path: ${{github.action.path}}/WinFormsApp1/bin/Release/netcoreapp3.1/win-x64/publish/WinFormsApp1.exe
